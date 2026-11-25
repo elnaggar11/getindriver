@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213401024452",
+    "project_id": "getin-943cd",
+    "storage_bucket": "getin-943cd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213401024452:android:9ac9eda7c8dd1f18a51691",
+        "android_client_info": {
+          "package_name": "com.getin.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdW0XWNvx0Krvqu4fBzgTMGyuZaDJQW-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

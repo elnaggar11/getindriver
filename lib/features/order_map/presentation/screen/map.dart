@@ -1,0 +1,115 @@
+import 'package:getin_driver/core/localization/localization_helper.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:getin_driver/core/utils/Locator.dart';
+import 'package:getin_driver/features/home/domain/model/order_list_model/order_model.dart';
+import 'package:getin_driver/features/order_map/cubit/order_map_controller.dart';
+import 'package:getin_driver/features/order_map/cubit/order_map_state.dart';
+import 'package:getin_driver/features/order_map/domain/repository/repository.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
+
+import '../../../../core/services/location/location_service.dart';
+import '../../../../core/services/location/map_route_service.dart';
+import '../../../order_details/presentation/widgets/order_info_card.dart';
+import '../../../order_details/presentation/widgets/stack_app_bar.dart';
+
+class MapPage extends StatelessWidget {
+  final LatLng destinationPoint;
+  final OrderModel order;
+
+  const MapPage({
+    super.key,
+    required this.destinationPoint,
+    required this.order,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocProvider(
+      create: (_) => MapCubit(
+        LocatorService(),
+        RouteService(),
+        locator<BranchMapRepository>(),
+      )..init(destinationPoint),
+      child: BlocConsumer<MapCubit, MapState>(
+        listener: (context, state) {
+          if (state.recieveOrder) {
+            Navigator.pop(context);
+          }
+        },
+        builder: (context, state) {
+          final cubit = context.read<MapCubit>();
+
+          return Scaffold(
+            floatingActionButtonLocation:
+                FloatingActionButtonLocation.startFloat,
+            body: Stack(
+              children: [
+                GoogleMap(
+                  initialCameraPosition: CameraPosition(
+                    target: state.initialTarget,
+                    zoom: 14,
+                  ),
+                  onTap: (p0) {
+                    print(p0);
+                  },
+                  markers: state.markers,
+                  polylines: state.polylines,
+                  myLocationEnabled: state.hasLocationPermission,
+                  myLocationButtonEnabled: state.hasLocationPermission,
+                ),
+                if (state.error != null)
+                  Positioned(
+                    top: 16,
+                    left: 16,
+                    right: 16,
+                    child: Container(
+                      color: Colors.red,
+                      padding: const EdgeInsets.all(12),
+                      child: Text(
+                        state.error!,
+                        style: const TextStyle(color: Colors.white),
+                      ),
+                    ),
+                  ),
+                if (state.routeInfo != null)
+                  Positioned(
+                    bottom: 40,
+                    left: 16,
+                    right: 16,
+                    child: Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Text(
+                        state.routeInfo!,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+                StackAppBar(
+                  title: LocalizationHelper.tr.pickup_order_from_branch_message,
+                  onBack: () => Navigator.pop(context),
+                ),
+                /*  Positioned(
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  child: OrderInfoCard(order: order),
+                ), */
+              ],
+            ),
+            bottomNavigationBar: OrderInfoCard(order: order),
+            floatingActionButton: FloatingActionButton(
+              onPressed: () => cubit.updateDestination(destinationPoint),
+              child: const Icon(Icons.refresh),
+            ),
+          );
+        },
+      ),
+    );
+  }
+}

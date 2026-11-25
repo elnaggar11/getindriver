@@ -1,0 +1,315 @@
+{       
+  
+  "valid_numberBetween": "Must be between {min} and {max} characters",
+  "@valid_numberBetween": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "valid_exactLength": "Phone number must be {length} digits exactly",
+  "@valid_exactLength": {
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+   "in_progress": "in progress",
+        "completed": "completed",
+     "newOrder": "New Order",
+        "onDelivery": "On Delivery",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled",
+
+ "unexpectedError": "An unexpected error occurred.",
+  "connectionTimeout": "Connection timeout. Please try again.",
+  "serverError": "Server error.",
+  "noNetwork": "No network. Please check your connection.",
+  "badCertificate": "Bad Certificate.",
+  "requestCanceled": "Request canceled.",
+  "unknownError": "An unknown error occurred, please check your internet connection.",
+  "pickLocation": "Pick Location",
+ "requiredField": "required Field",
+    "requiredPhone": "required phone",
+    "phoneDoseNotMatch": "phone dose not match",
+    "requiredEmail": "required Email",
+    "wrongEmailValidation": "wrong Email Validation",
+    "requiredPassword": "required Password",
+    "smallPassword": "small Password",
+    "confirmPassword": "Confirm Password",
+    "passwordNotMatch": "password not match",
+     "camera": "Camera",
+    "gallery": "Gallery",
+    "noImageSelected": "No image was selected.",
+    "mediaPickError": "An error occurred while selecting the image.",
+     "permissionRequired": "Permission Required",
+    "enablePermissions": "Please enable the required permissions from app settings.",
+    "cancel": "Cancel",
+    "settings": "Settings",
+     "error_occurred": "error occurred",
+  "path_not_found": "path not found",
+    "c__________Endcore": "",
+  
+  "change_password": "Change password",
+  "enter_new_password": "Enter the new password",
+  "new_password": "New password",
+  "confirm_new_password": "Confirm new password",
+  "change": "Change",
+  "data_issue": "There is a data issue",
+  "select_your_location": "Select your location",
+  "select_location_first": "Location must be selected first",
+  "select_another_location": "Another location must be selected",
+  "tap_map_to_select_location": "Tap on the map to select location",
+  "best_orders": "Pick up the best orders...",
+  "order_tracking": "Track your Orders...",
+  "no_orders": "No Orders",
+
+
+
+
+  "unspecified_phrase": "",
+  "delivery_time": "Your Delivery time",
+  "delivery_distance_km": "Delivery kilometer",
+
+  "branch_scope_work_km": "{scopeWork} km",
+  "@branch_scope_work_km": {
+    "placeholders": {
+      "scopeWork": { "type": "String" }
+    }
+  },
+
+  "see_more": "See more",
+  "order_confirmed": "Order Confirmed!",
+  "confirm_order": "Confirm Order",
+  "something_went_wrong": "Something went wrong",
+  "please_try_again": "Please try again",
+  "refresh": "Refresh",
+  "find_best_branches": "Find best branches for you!",
+  "find_best_branch": "Find Your best Branch...",
+  "today_special_menu": "Today's SPECIAL MENU",
+  "branches": "Branches",
+  "view_all": "View all",
+  "driver_details_label": "Driver...",
+  "get_started_label": "Get Started",
+  "next_label": "Next",
+  "pickup_order_from_branch_message": "Pick up the order from branch",
+  "verify_mobile_number_text": "Verify Mobile Number",
+  "verification_code_input_hint_text": "Enter the code sent to your mobile number.",
+  "resend_code_question_text": "Didn't receive the code?",
+  "resend_code_button_text": "Resend code",
+
+
+  "verify_button_text": "Verify",
+  "forgot_password_link_text": "Forgot your password?",
+  "registered_phone_number_input_hint_text": "Enter the phone number linked to your account",
+  "input_number": "Enter your number here",
+  "get_code_action": "Get the code now",
+  "welcome_back_message": "Welcome back !.",
+  "registered_information": "Please enter the information registered with us.",
+  "next_action": "next",
+  "start_action": "Get Started now",
+  "sign_up_action": "Sign Up",
+  "login_action": "Log In now",
+  "personal_information": "Personal Information",
+  "profile_picture": "Upload profile picture",
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "email_address": "Email Address * ",
+  "email": "Enter your email here",
+  "id_or_residence_permit": "ID Number or Residence Permit * ",
+  "entered_id_or_residence_permit": "Enter your ID Number or Residence Permit here",
+  "date_of_birth": "Date of Birth * ",
+  "entered_date_of_birth": "Enter your Date of Birth here",
+  "nationality": "Nationality *",
+  "entered_nationality": "Enter your Nationality here",
+  "password": "Password *",
+  "entered_password": "Enter your password here",
+  "confirm_password": "confirm password *",
+  "reentered_password": "Renter your password here",
+  "has_gps_or_maps_installed": "Do you have GPS or maps installed on your phone? *",
+  "yes_no_option": "(Yes / No )",
+  "is_yes": "Yes",
+  "is_no": "No",
+  "vehicle_information": "Vehicle Information",
+  "vehicle_registration_document": "Upload Vehicle Registration Document",
+  "pdf_file": "PDF",
+  "vehicle_insurance_document": "Upload Vehicle Insurance ",
+  "vehicle_type": "Type of Vehicle",
+  "vehicle_model": "Vehicle model",
+  "year_of_manufacture": "Year of Manufacture",
+  "license_plate_number": "Enter your License Plate Number here",
+  "driving_license_information": "Driving License Information",
+  "driving_license_photo": "Upload Driving License Photo",
+  "license_issue_date": "Enter your License Issue Date here",
+  "license_expiry_date": "Enter your License Expiry Date here",
+  "has_previous_experience": "Do you have previous experience? *",
+  "past_experience_description": "Briefly describe your past experience *",
+  "input_text": "Write here...",
+  "location_details": "Location & Additional Information",
+  "city": "City *",
+  "entered_city": "Enter your city here",
+  "district_area": "District / Area *",
+  "entered_district_area": "Enter your district / area here",
+  "additional_notes": "Additional Notes (Optional)",
+  "extra_information": "Write any extra information you'd like to share...",
+
+  "remember_me": "Remember me",
+  "no_account_prompt": "Don't have an account?",
+  "lama_sans": "Lama Sans",
+  "create_new_account": "Create a new account",
+  "notification": "Notification",
+   "no_notifications": "No Notifications",
+  "no_current_notifications": "No Current Notifications",
+  "home": "Home",
+  "finance": "Finance",
+  "reports": "Reports",
+  "profile": "Profile",
+  "order_status": "orderStatus",
+  "order_details": "Order Details",
+  "location": "location",
+  "order": "order",
+  "ordered_products": "Products ordered by the customer",
+
+  "item_count": "{itemsCount} items",
+  "@item_count": {
+    "placeholders": {
+      "itemsCount": { "type": "String" }
+    }
+  },
+
+  "subtotal": "Subtotal:",
+
+
+
+  "total_order_amount": "Total Order:",
+
+
+  "qr_reader": "Qr reader",
+  "qr_data": "qr data",
+  "is_order_confirmed": "Order Confirmed",
+  "scan_qr_code": "Scan QR Code",
+  "scan_instruction_message": "Tap the button below to start scanning",
+
+  "last_scanned_data": "Last scanned: {scannedData}",
+  "@last_scanned_data": {
+    "placeholders": {
+      "scannedData": { "type": "String" }
+    }
+  },
+
+  "branch_receive_address": "Branch address to receive order",
+  "is_delivered": "Delivered",
+  "order_received": "Order received",
+  "request_received": "request has been received.",
+
+
+
+  "account_info": "Account information",
+  "save_operation": "save",
+  "total_orders": "Total Orders",
+  "range": "range",
+  "share": "Share",
+  "language": "Language",
+  "terms_and_conditions": "Terms and Conditions",
+  "support": "Support",
+  "logout": "Logout",
+  "change_language": "Change Language",
+  "english": "English",
+  "arabic": "Arabic",
+  "turkish": "Turkish",
+  "privacy_policy": "Privacy Policy",
+  "confirm_logout_message": "Are you sure you want to log out!?",
+  "action_reversible_message": "This Action is Reversible!",
+  "log_out": "Log Out",
+  "cancel": "Cancel",
+  "your_evaluations": "Evaluations directed to you",
+  "placeholder_text": "-",
+  "search_orders_hint": "Search your Orders...",
+  "total_amounts_entered": "Total amounts entered",
+
+
+  "compared_to_last_month": "Compared to last month",
+
+
+  "order_history": "Order history",
+  "is_completed": "Completed",
+  "is_complete": "Complete",
+  "cancelled": "Cancelled",
+  "history": "History",
+   "token": "token",
+  "order_id_not_match": "Order Id Not Match",
+   "no_phone_number": "No phone number",
+  "delivery_address": "Your Delivery Address",
+  "destination_overview": "Destination Overview",
+  "current_location": "get current Location",
+  "your_location": "Your Location",
+  "destination": "Destination",
+  "customer_delivery": "Delivery to the customer",
+  "selected_location": "Select Location",
+  "pick_location": "Pick Location",
+  "selected_date": "Select Date",
+  "selected_file": "Select File",
+  "selected_image": "Select Image",
+
+  "image_selection_message": "Image Selected: {imagePath}",
+  "@image_selection_message": {
+    "placeholders": {
+      "imagePath": { "type": "String" }
+    }
+  },
+
+  
+
+  "current_step_label": "Step {stepNumber}",
+  "@current_step_label": {
+    "placeholders": {
+      "stepNumber": { "type": "String" }
+    }
+  },
+
+  "select_option": "please Choose {label}",
+  "@select_option": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+
+  "is_ok": "OK",
+  "retry_action": "Retry",
+  "go_back_action": "Go back",
+  "no_items_found_message": "No Items",
+  "select_location_first_message": "Please select a location first.",
+  "selection_instruction_message": "Please select {label}",
+  "@selection_instruction_message": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+
+  "search": "search",
+  "contact_support": "Contact Support",
+
+  "ok": "Ok",
+  "delete_account": "Delete Account",
+  "are_you_sure_delete_account": "Are you sure you want to delete your account? This action cannot be undone.",
+  "delete": "Delete",
+  "phone_number_is_required": "Phone number is required",
+  "phone_number_should_be_between_7_and_15_characters": "Phone number should be between 7 and 15 characters",
+  "password_is_required": "Password is required",
+  "password_should_be_at_least_8_characters": "Password should be at least 8 characters",
+  "required_field": "Required field",
+  "passwords_do_not_match": "Passwords do not match",
+  "must_be_at_least_16_years_old": "You must be at least {age} years old",
+  "@must_be_at_least_16_years_old": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      }
+    }
+  }
+}

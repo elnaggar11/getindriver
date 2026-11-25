@@ -1,0 +1,297 @@
+{      
+
+ 
+  "valid_numberBetween": "{min} ile {max} karakter arasında olmalıdır",
+  "@valid_numberBetween": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  
+  "valid_exactLength": "Telefon numarası {length} haneli olmalıdır",
+  "@valid_exactLength": {
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+    "in_progress": "devam ediyor",
+        "completed": "tamamlandı",
+     "newOrder": "Yeni Sipariş",
+        "onDelivery": "Teslim Ediliyor",
+        "delivered": "Teslim Edildi",
+        "cancelled": "İptal Edildi",
+  "unexpectedError": "Beklenmedik bir hata oluştu.",
+  "connectionTimeout": "Bağlantı zaman aşımına uğradı. Lütfen tekrar deneyin.",
+  "serverError": "Sunucu hatası.",
+  "noNetwork": "Ağ bağlantısı yok. Lütfen bağlantınızı kontrol edin.",
+  "badCertificate": "Geçersiz Sertifika.",
+  "requestCanceled": "İstek iptal edildi.",
+  "unknownError": "Bilinmeyen bir hata oluştu, lütfen internet bağlantınızı kontrol edin.",
+  "pickLocation": "Konum Seç",
+  "requiredField": "Gerekli alan",
+  "requiredPhone": "Telefon gerekli",
+  "phoneDoseNotMatch": "Telefon eşleşmiyor",
+  "requiredEmail": "E-posta gerekli",
+  "wrongEmailValidation": "Hatalı E-posta Doğrulaması",
+  "requiredPassword": "Şifre gerekli",
+  "smallPassword": "Kısa Şifre",
+  "confirmPassword": "Şifreyi Onayla",
+  "passwordNotMatch": "Şifre eşleşmiyor",
+  "camera": "Kamera",
+  "gallery": "Galeri",
+  "noImageSelected": "Hiçbir resim seçilmedi.",
+  "mediaPickError": "Resim seçilirken bir hata oluştu.",
+  "permissionRequired": "İzin Gerekli",
+  "enablePermissions": "Lütfen uygulama ayarlarından gerekli izinleri etkinleştirin.",
+  "cancel": "İptal",
+  "settings": "Ayarlar",
+  "error_occurred": "hata oluştu",
+  "path_not_found": "yol bulunamadı",
+  "c__________Endcore": "",
+  "change_password": "Şifre değiştir",
+  "enter_new_password": "Yeni şifreyi girin",
+  "new_password": "Yeni şifre",
+  "confirm_new_password": "Yeni şifreyi onayla",
+  "change": "Değiştir",
+  "data_issue": "Bir veri sorunu var",
+  "select_your_location": "Konumunuzu seçin",
+  "select_location_first": "Önce konum seçilmelidir",
+  "select_another_location": "Başka bir konum seçilmelidir",
+  "tap_map_to_select_location": "Konum seçmek için haritaya dokunun",
+  "best_orders": "En iyi siparişleri alın...",
+  "order_tracking": "Siparişlerinizi Takip Edin...",
+  "no_orders": "Sipariş Yok",
+  "unspecified_phrase": "",
+  "delivery_time": "Teslimat Süreniz",
+  "delivery_distance_km": "Teslimat kilometresi",
+  "branch_scope_work_km": "{scopeWork} km",
+  "@branch_scope_work_km": {
+    "placeholders": {
+      "scopeWork": {
+        "type": "String"
+      }
+    }
+  },
+  "see_more": "Daha fazlasını gör",
+  "order_confirmed": "Sipariş Onaylandı!",
+  "confirm_order": "Siparişi Onayla",
+  "something_went_wrong": "Bir şeyler ters gitti",
+  "please_try_again": "Lütfen tekrar deneyin",
+  "refresh": "Yenile",
+  "find_best_branches": "Sizin için en iyi şubeleri bulun!",
+  "find_best_branch": "En iyi Şubenizi Bulun...",
+  "today_special_menu": "Bugünün ÖZEL MENÜSÜ",
+  "branches": "Şubeler",
+  "view_all": "Tümünü gör",
+  "driver_details_label": "Sürücü...",
+  "get_started_label": "Başlayın",
+  "next_label": "İleri",
+  "pickup_order_from_branch_message": "Siparişi şubeden alın",
+  "verify_mobile_number_text": "Cep Numarasını Doğrula",
+  "verification_code_input_hint_text": "Cep numaranıza gönderilen kodu girin.",
+  "resend_code_question_text": "Kodu almadınız mı?",
+  "resend_code_button_text": "Kodu tekrar gönder",
+  "verify_button_text": "Doğrula",
+  "forgot_password_link_text": "Şifrenizi mi unuttunuz?",
+  "registered_phone_number_input_hint_text": "Hesabınıza bağlı telefon numarasını girin",
+  "input_number": "Numaranızı buraya girin",
+  "get_code_action": "Kodu şimdi alın",
+  "welcome_back_message": "Tekrar hoş geldiniz!.",
+  "registered_information": "Lütfen bize kayıtlı bilgileri girin.",
+  "next_action": "ileri",
+  "start_action": "Şimdi Başlayın",
+  "sign_up_action": "Kaydol",
+  "login_action": "Şimdi Giriş Yap",
+  "personal_information": "Kişisel Bilgiler",
+  "profile_picture": "Profil resmi yükle",
+  "first_name": "Ad",
+  "last_name": "Soyad",
+  "email_address": "E-posta Adresi * ",
+  "email": "E-postanızı buraya girin",
+  "id_or_residence_permit": "Kimlik Numarası veya İkamet İzni * ",
+  "entered_id_or_residence_permit": "Kimlik Numaranızı veya İkamet İzninizi buraya girin",
+  "date_of_birth": "Doğum Tarihi * ",
+  "entered_date_of_birth": "Doğum Tarihinizi buraya girin",
+  "nationality": "Uyruk *",
+  "entered_nationality": "Uyruğunuzu buraya girin",
+  "password": "Şifre *",
+  "entered_password": "Şifrenizi buraya girin",
+  "confirm_password": "şifreyi onayla *",
+  "reentered_password": "Şifrenizi tekrar girin",
+  "has_gps_or_maps_installed": "Telefonunuzda GPS veya haritalar yüklü mü? *",
+  "yes_no_option": "(Evet / Hayır )",
+  "is_yes": "Evet",
+  "is_no": "Hayır",
+  "vehicle_information": "Araç Bilgileri",
+  "vehicle_registration_document": "Araç Kayıt Belgesini Yükle",
+  "pdf_file": "PDF",
+  "vehicle_insurance_document": "Araç Sigortasını Yükle ",
+  "vehicle_type": "Araç Tipi",
+  "vehicle_model": "Araç modeli",
+  "year_of_manufacture": "Üretim Yılı",
+  "license_plate_number": "Plaka Numaranızı buraya girin",
+  "driving_license_information": "Sürücü Belgesi Bilgileri",
+  "driving_license_photo": "Sürücü Belgesi Fotoğrafını Yükle",
+  "license_issue_date": "Ehliyet Veriliş Tarihinizi buraya girin",
+  "license_expiry_date": "Ehliyet Son Kullanma Tarihinizi buraya girin",
+  "has_previous_experience": "Daha önce deneyiminiz var mı? *",
+  "past_experience_description": "Geçmiş deneyiminizi kısaca açıklayın *",
+  "input_text": "Buraya yazın...",
+  "location_details": "Konum ve Ek Bilgiler",
+  "city": "Şehir *",
+  "entered_city": "Şehrinizi buraya girin",
+  "district_area": "İlçe / Bölge *",
+  "entered_district_area": "İlçenizi / bölgenizi buraya girin",
+  "additional_notes": "Ek Notlar (İsteğe Bağlı)",
+  "extra_information": "Paylaşmak istediğiniz herhangi bir ek bilgiyi buraya yazın...",
+  "remember_me": "Beni hatırla",
+  "no_account_prompt": "Hesabınız yok mu?",
+  "lama_sans": "Lama Sans",
+  "create_new_account": "Yeni hesap oluştur",
+  "notification": "Bildirim",
+  "no_notifications": "Bildirim Yok",
+  "no_current_notifications": "Güncel Bildirim Yok",
+  "home": "Ana Sayfa",
+  "finance": "Finans",
+  "reports": "Raporlar",
+  "profile": "Profil",
+  "order_status": "siparişDurumu",
+  "order_details": "Sipariş Detayları",
+  "location": "konum",
+  "order": "sipariş",
+  "ordered_products": "Müşteri tarafından sipariş edilen ürünler",
+  "item_count": "{itemsCount} ürün",
+  "@item_count": {
+    "placeholders": {
+      "itemsCount": {
+        "type": "String"
+      }
+    }
+  },
+  "subtotal": "Ara Toplam:",
+  "total_order_amount": "Toplam Sipariş:",
+  "qr_reader": "Qr okuyucu",
+  "qr_data": "qr veri",
+  "is_order_confirmed": "Sipariş Onaylandı",
+  "scan_qr_code": "QR Kodu Tara",
+  "scan_instruction_message": "Taramayı başlatmak için aşağıdaki düğmeye dokunun",
+  "last_scanned_data": "Son taranan: {scannedData}",
+  "@last_scanned_data": {
+    "placeholders": {
+      "scannedData": {
+        "type": "String"
+      }
+    }
+  },
+  "branch_receive_address": "Siparişi alacak şube adresi",
+  "is_delivered": "Teslim edildi",
+  "order_received": "Sipariş alındı",
+  "request_received": "istek alındı.",
+  "account_info": "Hesap bilgileri",
+  "save_operation": "kaydet",
+  "total_orders": "Toplam Siparişler",
+  "range": "aralık",
+  "share": "Paylaş",
+  "language": "Dil",
+  "terms_and_conditions": "Şartlar ve Koşullar",
+  "support": "Destek",
+  "logout": "Çıkış yap",
+  "change_language": "Dili Değiştir",
+  "english": "İngilizce",
+  "arabic": "Arapça",
+  "turkish": "Türkçe",
+  "privacy_policy": "Gizlilik Politikası",
+  "confirm_logout_message": "Çıkış yapmak istediğinizden emin misiniz!?",
+  "action_reversible_message": "Bu Eylem Geri Alınabilir!",
+  "log_out": "Çıkış Yap",
+  "cancel": "İptal",
+  "your_evaluations": "Size Yönlendirilen Değerlendirmeler",
+  "placeholder_text": "-",
+  "search_orders_hint": "Siparişlerinizi arayın...",
+  "total_amounts_entered": "Girilen toplam tutarlar",
+  "compared_to_last_month": "Geçen aya göre",
+  "order_history": "Sipariş geçmişi",
+  "is_completed": "Tamamlandı",
+  "is_complete": "Tamamla",
+  "cancelled": "İptal Edildi",
+  "history": "Geçmiş",
+  "token": "token",
+  "order_id_not_match": "Sipariş Kimliği Eşleşmiyor",
+  "no_phone_number": "Telefon numarası yok",
+  "delivery_address": "Teslimat Adresiniz",
+  "destination_overview": "Hedefe Genel Bakış",
+  "current_location": "Mevcut Konumu al",
+  "your_location": "Konumunuz",
+  "destination": "Hedef",
+  "customer_delivery": "Müşteriye teslimat",
+  "selected_location": "Konum Seç",
+  "pick_location": "Konum Seç",
+  "selected_date": "Tarih Seç",
+  "selected_file": "Dosya Seç",
+  "selected_image": "Resim Seç",
+  "image_selection_message": "Seçilen Resim: {imagePath}",
+  "@image_selection_message": {
+    "placeholders": {
+      "imagePath": {
+        "type": "String"
+      }
+    }
+  },
+  "current_step_label": "Adım {stepNumber}",
+  "@current_step_label": {
+    "placeholders": {
+      "stepNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "select_option": "lütfen {label} seçin",
+  "@select_option": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "is_ok": "Tamam",
+  "retry_action": "Tekrar Dene",
+  "go_back_action": "Geri dön",
+  "no_items_found_message": "Öğe Yok",
+  "select_location_first_message": "Lütfen önce bir konum seçin.",
+  "selection_instruction_message": "Lütfen {label} seçin",
+  "@selection_instruction_message": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "search": "ara",
+  "contact_support": "Destekle İletişime Geç",
+
+  "ok": "Tamam",
+  "delete_account": "Hesabı Sil",
+  "are_you_sure_delete_account": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+  "delete": "Sil",
+  "phone_number_is_required": "Telefon numarası zorunludur",
+  "phone_number_should_be_between_7_and_15_characters": "Telefon numarası 7 ile 15 karakter arasında olmalıdır",
+  "password_is_required": "Şifre zorunludur",
+  "password_should_be_at_least_8_characters": "Şifre en az 8 karakter olmalıdır",
+  "required_field": "Zorunlu alan",
+  "passwords_do_not_match": "Şifreler eşleşmiyor",
+  "must_be_at_least_16_years_old": "En az {age} yaşında olmalısınız",
+  "@must_be_at_least_16_years_old": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      }
+    }
+  }
+}

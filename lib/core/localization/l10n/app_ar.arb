@@ -1,0 +1,314 @@
+{
+
+
+  "valid_numberBetween": "يجب أن يكون بين {min} و {max} حرفاً",
+  "@valid_numberBetween": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "valid_exactLength": "يجب أن يكون {length} حرفاً بالضبط",
+  "@valid_exactLength": {
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+        "newOrder": "الطلب الجديد",
+        "onDelivery": "التسليم",
+        "delivered": "تم التسليم",
+        "cancelled": "تم الالغاء",
+        "in_progress": "قيد العمل عليه",
+        "completed": "مكتمل",
+
+  "unexpectedError": "حدث خطأ غير متوقع.",
+  "connectionTimeout": "انتهت مهلة الاتصال. حاول مرة أخرى.",
+  "serverError": "خطأ في الخادم.",
+"badCertificate": "شهادة الأمان غير صالحة.",
+    "unknownError": "حدث خطأ غير معروف، يرجى التحقق من اتصالك بالإنترنت.",
+
+    "requestCanceled": "تم إلغاء الطلب.",
+  "noNetwork": "لا يوجد اتصال. يرجى التحقق من الشبكة.",
+  "pickLocation": "اختر الموقع",
+   "requiredField": "هذا الحقل مطلوب",
+    "requiredPhone": "الهاتف مطلوب",
+    "phoneDoseNotMatch": "الهاتف غير متطابق",
+    "requiredEmail": "البريد الالكتروني مطلوب",
+    "wrongEmailValidation": "البريد الالكتروني غير صحيح",
+    "requiredPassword": "كلمة المرور مطلوبة",
+    "smallPassword": "كلمة المرور قصيرة جدا",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "passwordNotMatch": "كلمة المرور غير متطابقة",
+    "camera": "الكاميرا",
+    "gallery": "المعرض",
+    "noImageSelected": "لم يتم اختيار صورة.",
+    "mediaPickError": "حدث خطأ أثناء اختيار الصورة.",
+    "permissionRequired": "مطلوب إذن",
+    "enablePermissions": "يرجى تمكين الأذونات المطلوبة من إعدادات التطبيق.",
+    "cancel": "إلغاء",
+    "settings": "الإعدادات",
+      "error_occurred": "حدث خطأ ما",
+  "path_not_found": "مسار غير موجود",
+    "c__________Endcore": "",
+  
+  "change_password": "تغيير كلمة المرور",
+  "enter_new_password": "أدخل كلمة المرور الجديدة",
+  "new_password": "كلمة المرور الجديدة",
+  "confirm_new_password": "تأكيد كلمة المرور الجديدة",
+  "change": "تغيير",
+  "data_issue": "هناك مشكلة في البيانات",
+  "select_your_location": "حدد موقعك",
+  "select_location_first": "يجب تحديد الموقع أولاً",
+  "select_another_location": "يجب تحديد موقع آخر",
+  "tap_map_to_select_location": "انقر على الخريطة لتحديد الموقع",
+  "best_orders": "التقط أفضل الطلبات...",
+  "order_tracking": "تتبع طلباتك...",
+  "no_orders": "لا توجد طلبات",
+
+
+
+  "unspecified_phrase": "",
+  "delivery_time": "وقت التسليم الخاص بك",
+  "delivery_distance_km": "كيلومترات التوصيل",
+
+  "branch_scope_work_km": "{scopeWork} كم",
+  "@branch_scope_work_km": {
+    "placeholders": {
+      "scopeWork": { "type": "String" }
+    }
+  },
+
+  "see_more": "شاهد المزيد",
+  "order_confirmed": "تم تأكيد الطلب!",
+  "confirm_order": "تأكيد الطلب",
+  "something_went_wrong": "حدث خطأ ما",
+  "please_try_again": "يرجى المحاولة مرة أخرى",
+  "refresh": "تحديث",
+  "find_best_branches": "ابحث عن أفضل الفروع لك!",
+  "find_best_branch": "ابحث عن أفضل فرع لك...",
+  "today_special_menu": "قائمة طعام اليوم الخاصة",
+  "branches": "الفروع",
+  "view_all": "عرض الكل",
+  "driver_details_label": "السائق...",
+  "get_started_label": "ابدأ",
+  "next_label": "التالي",
+  "pickup_order_from_branch_message": "التقط الطلب من الفرع",
+  "verify_mobile_number_text": "تحقق من رقم الهاتف المحمول",
+  "verification_code_input_hint_text": "أدخل الرمز المرسل إلى رقم هاتفك المحمول.",
+  "resend_code_question_text": "ألم تستلم الرمز؟",
+  "resend_code_button_text": "إعادة إرسال الرمز",
+
+
+
+  "verify_button_text": "تحقق",
+  "forgot_password_link_text": "هل نسيت كلمة المرور؟",
+  "registered_phone_number_input_hint_text": "أدخل رقم الهاتف المرتبط بحسابك",
+  "input_number": "أدخل رقمك هنا",
+  "get_code_action": "احصل على الرمز الآن",
+  "welcome_back_message": "مرحباً بعودتك!.",
+  "registered_information": "يرجى إدخال المعلومات المسجلة لدينا.",
+  "next_action": "التالي",
+  "start_action": "ابدأ الآن",
+  "sign_up_action": "التسجيل",
+  "login_action": "تسجيل الدخول الآن",
+  "personal_information": "المعلومات الشخصية",
+  "profile_picture": "تحميل صورة الملف الشخصي",
+  "first_name": "الاسم الأول",
+  "last_name": "الاسم الأخير",
+  "email_address": "البريد الإلكتروني * ",
+  "email": "أدخل بريدك الإلكتروني هنا",
+  "id_or_residence_permit": "رقم الهوية أو تصريح الإقامة * ",
+  "entered_id_or_residence_permit": "أدخل رقم الهوية أو تصريح الإقامة الخاص بك هنا",
+  "date_of_birth": "تاريخ الميلاد * ",
+  "entered_date_of_birth": "أدخل تاريخ ميلادك هنا",
+  "nationality": "الجنسية *",
+  "entered_nationality": "أدخل جنسيتك هنا",
+  "password": "كلمة المرور *",
+  "entered_password": "أدخل كلمة المرور الخاصة بك هنا",
+  "confirm_password": "تأكيد كلمة المرور *",
+  "reentered_password": "أعد إدخال كلمة المرور الخاصة بك هنا",
+  "has_gps_or_maps_installed": "هل لديك نظام تحديد المواقع (GPS) أو خرائط مثبتة على هاتفك؟ *",
+  "yes_no_option": "(نعم / لا )",
+  "is_yes": "نعم",
+  "is_no": "لا",
+  "vehicle_information": "معلومات المركبة",
+  "vehicle_registration_document": "تحميل وثيقة تسجيل المركبة",
+  "pdf_file": "PDF",
+  "vehicle_insurance_document": "تحميل تأمين المركبة",
+  "vehicle_type": "نوع المركبة",
+  "vehicle_model": "طراز المركبة",
+  "year_of_manufacture": "سنة الصنع",
+  "license_plate_number": "أدخل رقم لوحة الترخيص الخاص بك هنا",
+  "driving_license_information": "معلومات رخصة القيادة",
+  "driving_license_photo": "تحميل صورة رخصة القيادة",
+  "license_issue_date": "أدخل تاريخ إصدار رخصتك هنا",
+  "license_expiry_date": "أدخل تاريخ انتهاء صلاحية رخصتك هنا",
+  "has_previous_experience": "هل لديك خبرة سابقة؟ *",
+  "past_experience_description": "صف بإيجاز خبرتك السابقة *",
+  "input_text": "اكتب هنا...",
+  "location_details": "الموقع ومعلومات إضافية",
+  "city": "المدينة *",
+  "entered_city": "أدخل مدينتك هنا",
+  "district_area": "المنطقة / الحي *",
+  "entered_district_area": "أدخل منطقتك / حيك هنا",
+  "additional_notes": "ملاحظات إضافية (اختياري)",
+  "extra_information": "اكتب أي معلومات إضافية تود مشاركتها...",
+
+  "remember_me": "تذكرني",
+  "no_account_prompt": "ليس لديك حساب؟",
+  "lama_sans": "Lama Sans",
+  "create_new_account": "إنشاء حساب جديد",
+  "notification": "الإشعارات",
+   "no_notifications": "لا توجد إشعارات",
+  "no_current_notifications": "لا توجد إشعارات حالية",
+  "home": "الرئيسية",
+  "finance": "المالية",
+  "reports": "التقارير",
+  "profile": "الملف الشخصي",
+  "order_status": "حالة الطلب",
+  "order_details": "تفاصيل الطلب",
+  "location": "الموقع",
+  "order": "الطلب",
+  "ordered_products": "المنتجات التي طلبها العميل",
+
+  "item_count": "{itemsCount} عناصر",
+  "@item_count": {
+    "placeholders": {
+      "itemsCount": { "type": "String" }
+    }
+  },
+
+  "subtotal": "المجموع الفرعي:",
+
+
+
+  "total_order_amount": "إجمالي الطلب:",
+
+
+
+  "qr_reader": "قارئ رمز الاستجابة السريعة",
+  "qr_data": "بيانات رمز الاستجابة السريعة",
+  "is_order_confirmed": "تم تأكيد الطلب",
+  "scan_qr_code": "مسح رمز الاستجابة السريعة",
+  "scan_instruction_message": "انقر على الزر أدناه لبدء المسح",
+
+  "last_scanned_data": "آخر مسح: {scannedData}",
+  "@last_scanned_data": {
+    "placeholders": {
+      "scannedData": { "type": "String" }
+    }
+  },
+
+  "branch_receive_address": "عنوان الفرع لاستلام الطلب",
+  "is_delivered": "تم التوصيل",
+  "order_received": "تم استلام الطلب",
+  "request_received": "تم استلام الطلب.",
+
+
+  "account_info": "معلومات الحساب",
+  "save_operation": "حفظ",
+  "total_orders": "إجمالي الطلبات",
+  "range": "المدى",
+  "share": "مشاركة",
+  "language": "اللغة",
+  "terms_and_conditions": "الشروط والأحكام",
+  "support": "الدعم",
+  "logout": "تسجيل الخروج",
+  "change_language": "تغيير اللغة",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+  "turkish": "التركية",
+  "privacy_policy": "سياسة الخصوصية",
+  "confirm_logout_message": "هل أنت متأكد أنك تريد تسجيل الخروج!؟",
+  "action_reversible_message": "هذا الإجراء قابل للإلغاء!",
+  "log_out": "تسجيل الخروج",
+  "cancel": "إلغاء",
+  "your_evaluations": "التقييمات الموجهة إليك",
+  "placeholder_text": "-",
+  "search_orders_hint": "ابحث في طلباتك...",
+  "total_amounts_entered": "إجمالي المبالغ التي تم إدخالها",
+
+
+  "order_history": "سجل الطلبات",
+
+  "compared_to_last_month": "مقارنة بالشهر الماضي",
+  "is_completed": "مكتمل",
+  "is_complete": "مكتمل",
+  "cancelled": "ملغاة",
+  "history": "السجل",
+   "token": "token",
+  "order_id_not_match": "معرف الطلب غير متطابق",
+   "no_phone_number": "لا يوجد رقم هاتف",
+  "delivery_address": "عنوان التوصيل الخاص بك",
+  "destination_overview": "نظرة عامة على الوجهة",
+  "current_location": "الحصول على الموقع الحالي",
+  "your_location": "موقعك",
+  "destination": "الوجهة",
+  "customer_delivery": "التوصيل إلى العميل",
+  "selected_location": "تحديد الموقع",
+  "pick_location": "اختيار الموقع",
+  "selected_date": "تحديد التاريخ",
+  "selected_file": "تحديد الملف",
+  "selected_image": "تحديد الصورة",
+
+  "image_selection_message": "تم تحديد الصورة: {imagePath}",
+  "@image_selection_message": {
+    "placeholders": {
+      "imagePath": { "type": "String" }
+    }
+  },
+
+
+  "current_step_label": "الخطوة {stepNumber}",
+  "@current_step_label": {
+    "placeholders": {
+      "stepNumber": { "type": "String" }
+    }
+  },
+
+  "select_option": "يرجى اختيار {label}",
+  "@select_option": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+
+  "is_ok": "موافق",
+  "retry_action": "إعادة المحاولة",
+  "go_back_action": "العودة",
+  "no_items_found_message": "لا توجد عناصر",
+  "select_location_first_message": "يرجى تحديد موقع أولاً.",
+  "selection_instruction_message": "يرجى تحديد {label}",
+  "@selection_instruction_message": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+
+  "search": "بحث",
+  "contact_support": "اتصل بدعم",
+  "ok": "موافق",
+  "delete_account": "حذف الحساب",
+  "are_you_sure_delete_account": "هل أنت متأكد أنك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
+  "delete": "حذف",
+  "phone_number_is_required": "رقم الهاتف مطلوب",
+  "phone_number_should_be_between_7_and_15_characters": "يجب أن يكون رقم الهاتف بين 7 و 15 رمزًا",
+  "password_is_required": "كلمة المرور مطلوبة",
+  "password_should_be_at_least_8_characters": "يجب أن تتكون كلمة المرور من 8 رموز على الأقل",
+  "required_field": "حقل مطلوب",
+  "passwords_do_not_match": "كلمتا المرور غير متطابقتين",
+  "must_be_at_least_16_years_old": "يجب أن يكون عمرك {age} عامًا على الأقل",
+  "@must_be_at_least_16_years_old": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      }
+    }
+  }
+}
